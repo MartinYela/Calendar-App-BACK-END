@@ -1,6 +1,6 @@
 import express from 'express';
 import { createUser, loginUser, renewUser } from '../controllers/auth.js';
-import { check, body } from 'express-validator';
+import { body } from 'express-validator';
 import { validationFields } from '../middlewares/validationFields.js';
 import { validateJWT } from '../middlewares/validate-jwt.js';
 
